@@ -6,10 +6,10 @@ namespace TallerDiseno3D_S2
         float altura;
         public Rectangulo(float baseRectangulo, float altura)
         {
-            this.baseRectangulo = base Rectangulo;
+            this.baseRectangulo = baseRectangulo;
             this.altura = altura;
         }
-        public override float Area()
+        public override float AreaRectangulo()
         {
             return baseRectangulo * altura;
         }
